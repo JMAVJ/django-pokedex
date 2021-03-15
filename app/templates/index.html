@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <link href="/static/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <div class="container-fluid row">
+      <section
+        class="col-lg-8 col-6 d-flex flex-wrap justify-space-around"
+        id="pokemon-container"
+      ></section>
+      <section
+        class="col-4 mt-2 border border-2 border-danger rounded-3"
+        id="pokedex"
+      >
+        <h1>Pokedex</h1>
+        <div id="pokedex-container"></div>
+      </section>
+    </div>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- App.js -->
+    <script src="/static/app.js"></script>
+  </body>
+</html>
